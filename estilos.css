@@ -1,0 +1,35 @@
+.container-tabheader{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border:1px solid crimson
+}
+
+.tabheader{
+    padding: 15px;
+    width: 20%;
+    background: crimson;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+}
+.tab-content{
+    border:1px solid crimson;
+    border-top: none;
+    position: relative;
+}
+
+.tabpage{
+    position: absolute;
+    display: none;
+    padding: 20px;
+}
+.tabpage:first-child{
+    display: block;
+}
+.active{
+    background: white;
+    color: crimson;
+}
